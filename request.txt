@@ -1,0 +1,13 @@
+curl 'http://atlas.picoctf.net:52892/' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5mCfykvBrzDyGq0T' \
+  -H 'Origin: http://atlas.picoctf.net:52892' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://atlas.picoctf.net:52892/' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36' \
+  --data-raw $'------WebKitFormBoundary5mCfykvBrzDyGq0T\r\nContent-Disposition: form-data; name="file"; filename="Screenshot from 2026-01-22 22-54-12.png"\r\nContent-Type: image/png\r\n\r\n\r\n------WebKitFormBoundary5mCfykvBrzDyGq0T--\r\n' \
+  --insecure
